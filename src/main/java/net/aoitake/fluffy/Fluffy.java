@@ -2,6 +2,7 @@ package net.aoitake.fluffy;
 
 import net.aoitake.fluffy.block.modBlocks;
 import net.aoitake.fluffy.item.modItems;
+import net.aoitake.fluffy.util.modRegistries;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class Fluffy implements ModInitializer {
 	public void onInitialize() {
 		modItems.registerModItems();
 		modBlocks.registerModBlocks();
+		modRegistries.registerModStuffs();
 	}
 }

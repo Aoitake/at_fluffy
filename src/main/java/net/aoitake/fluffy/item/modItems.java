@@ -10,13 +10,13 @@ import net.minecraft.util.registry.Registry;
 public class modItems {
 
     public static final Item SYSTITE = registerItem("systite",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(modItemGroup.MISCELLANEOUS)));
 
     public static final Item RUBY = registerItem("ruby",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(modItemGroup.MISCELLANEOUS)));
 
     public static final Item CHEESE = registerItem("cheese",
-            new Item(new FabricItemSettings().group(ItemGroup.FOOD)));
+            new Item(new FabricItemSettings().group(modItemGroup.FOOD).food(modFoodComponents.CHEESE)));
 
 
     private static Item registerItem(String name, Item item) {

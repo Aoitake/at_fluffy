@@ -4,5 +4,9 @@
   "item.fluffy.cheese": "Cheese",
 
   "block.fluffy.systite_block": "Systite Block",
-  "block.fluffy.systite_ore": "Systite Ore"
+  "block.fluffy.systite_ore": "Systite Ore",
+
+  "itemGroup.fluffy.blocks": "Blocks",
+  "itemGroup.fluffy.food": "Food",
+  "itemGroup.fluffy.miscellaneous": "Miscellaneous"
 }
