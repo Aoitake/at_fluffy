@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.aoitake.fluffy.Fluffy"
+    ],
+    "client": [
+      "net.aoitake.fluffy.fluffyClientMod"
     ]
   },
   "mixins": [

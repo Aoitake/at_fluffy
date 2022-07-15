@@ -2,9 +2,12 @@
   "item.fluffy.systite": "Systite",
   "item.fluffy.ruby": "Ruby",
   "item.fluffy.cheese": "Cheese",
+  "item.fluffy.shinzo_berry": "Shinzo Berry",
+  "item.fluffy.shinzo_seeds": "Shinzo Seeds",
 
   "block.fluffy.systite_block": "Systite Block",
   "block.fluffy.systite_ore": "Systite Ore",
+  "block.fluffy.shinzo_berry_bush": "Shinzo Berry Bush",
 
   "itemGroup.fluffy.blocks": "Blocks",
   "itemGroup.fluffy.food": "Food",

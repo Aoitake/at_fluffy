@@ -16,5 +16,6 @@ public class Fluffy implements ModInitializer {
 		modItems.registerModItems();
 		modBlocks.registerModBlocks();
 		modRegistries.registerModStuffs();
+		modRegistries.registerModStuffs();
 	}
 }

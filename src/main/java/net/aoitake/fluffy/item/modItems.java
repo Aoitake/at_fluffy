@@ -1,7 +1,9 @@
 package net.aoitake.fluffy.item;
 
 import net.aoitake.fluffy.Fluffy;
+import net.aoitake.fluffy.block.modBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -17,6 +19,12 @@ public class modItems {
 
     public static final Item CHEESE = registerItem("cheese",
             new Item(new FabricItemSettings().group(modItemGroup.FOOD).food(modFoodComponents.CHEESE)));
+
+    public static final Item SHINZO_BERRY = registerItem("shinzo_berry",
+            new Item(new FabricItemSettings().group(modItemGroup.FOOD).food(modFoodComponents.SHINZO_BERRY)));
+
+    public static final Item SHINZO_SEEDS = registerItem("shinzo_seeds",
+            new AliasedBlockItem(modBlocks.SHINZO_BERRY_BUSH, new FabricItemSettings().group(modItemGroup.MISCELLANEOUS)));
 
 
     private static Item registerItem(String name, Item item) {

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "fluffy:blocks/shinzo_berry_bush2"
+  }
+}

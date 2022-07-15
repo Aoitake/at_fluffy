@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "fluffy:block/shinzo_berry_bush0"
+    },
+    "age=1": {
+      "model": "fluffy:block/shinzo_berry_bush0"
+    },
+    "age=2": {
+      "model": "fluffy:block/shinzo_berry_bush1"
+    },
+    "age=3": {
+      "model": "fluffy:block/shinzo_berry_bush1"
+    },
+    "age=4": {
+      "model": "fluffy:block/shinzo_berry_bush1"
+    },
+    "age=5": {
+      "model": "fluffy:block/shinzo_berry_bush2"
+    },
+    "age=6": {
+      "model": "fluffy:block/shinzo_berry_bush2"
+    },
+    "age=7": {
+      "model": "fluffy:block/shinzo_berry_bush3"
+    }
+  }
+}
